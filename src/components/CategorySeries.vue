@@ -7,7 +7,7 @@
             Series List
           </h6>
         </div>
-        <div class="row">
+        <div class="row text-center ">
           <div class="col scroll-horizontal rounded">
             <div class="row itemscroll gap-2" v-for="lm in ListMovie" :key="lm.title">
               <div class="col-sm-10 col-lg-3">

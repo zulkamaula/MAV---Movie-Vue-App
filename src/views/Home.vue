@@ -3,7 +3,7 @@
     <div class="row header mb-3">
       <div class="col-12">
       <div class="title-page">
-        <div style="letter-spacing: -1vw">
+        <div style="letter-spacing: -1vmax">
         <span class="text-movie">
           M
         </span>
@@ -62,7 +62,7 @@
      
       <div class="col-sm-3 col-lg-3 col-3 text-center p-0">
        <div class="title-page2 p-1">
-        <div style="letter-spacing: -1vw">
+        <div style="letter-spacing: -1vmax">
         <span class="text-movie">
           M
         </span>
