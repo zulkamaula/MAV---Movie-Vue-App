@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Josefin+Sans&display=swap');
+  
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+  
+.header {
+  background-image: url('https://cdn.wallpapersafari.com/56/81/kMYsoU.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+/*   text-align: left; */
+}
+  
+.body {
+  height: 20vh;
+}
+
+.title-page {
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  font-weight: bold;
+  font-size: 4vmax;
+  background-color: white;
+  padding-top: 1vh;
+}
+
+.title-page2 {
+  top:0;
+  left: 0;
+  right: 0;
+  font-weight: bold;
+  font-size: 4vmax;
+  padding-top: 1vh;
+}
+
+h6:after {
+    content:"";
+    position: absolute;
+    border-bottom: 1px solid grey; /* border-size & color are now controllable */
+    width: 35vmax;   
+    height: 2.2vmax;
+    display: inline;
+    margin-left: 0.5vmax;
+}
+  
+.text-movie {
+  color: #dc3545;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.text-App {
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.text-vue {
+  color: #20c997;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+  
+.mav {
+  transform: translateY(-1.5vh);
+  font-size: 1.5vw;
+  font-weight: bolder;
+  font-style: italic;
+  display: block;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.card-title {
+    font-size: 2vmax !important;
+    font-weight: bolder;
+}
+
+.card-text {
+    font-size: 0.9vmax !important;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.card-img-top {
+    width: 15vmax;
+}
+  
+.copyright {
+    font-size: 0.8vw !important;
+    font-weight: lighter;
+    font-style: italic;
+    color: #2c3e50;
+}
+
+.scroll-horizontal {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.itemscroll {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
