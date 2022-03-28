@@ -1,15 +1,15 @@
 <template>
   <div>
-  <div class="row mt-3 mb-3 body bg-light justify-content-center" style="height: 55vmax">
+  <div class="row mt-3 mb-3 body bg-light justify-content-center text-center" style="height: 55vmax">
       <div class="col-11 align-self-center">
         <div class="row text-start">
           <h6 class="col text-dark fw-bold">
             Series List
           </h6>
         </div>
-        <div class="row text-center ">
+        <div class="row">
           <div class="col scroll-horizontal rounded">
-            <div class="row itemscroll gap-2" v-for="lm in ListMovie" :key="lm.title">
+            <div class="row text-center justify-content-center itemscroll gap-2" v-for="lm in ListMovie" :key="lm.title">
               <div class="col-sm-10 col-lg-3">
                 <img :src="lm.Poster" class="mx-auto card-img-top">
               <div class="card-body">
@@ -21,8 +21,8 @@
               </div>
             </div>
           </div>
-          
         </div>
+        
       </div>
     </div>
   </div>

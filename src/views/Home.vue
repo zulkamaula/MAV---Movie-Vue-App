@@ -3,7 +3,7 @@
     <div class="row header mb-3">
       <div class="col-12">
       <div class="title-page">
-        <div style="letter-spacing: -1vmax">
+        <div style="letter-spacing: -1.2vmax">
         <span class="text-movie">
           M
         </span>
@@ -40,7 +40,7 @@
    </div>
 
    <div class="row justify-content-center mb-3">
-     <div class="col-9 col-sm-9 col-lg-9 mt-2 mb-2">
+     <div class="col-8 col-sm-8 col-lg-8 mt-2 mb-2">
        <span v-if="ResultSearch === false">
          <div class="input-group">
            <button class="btn btn-danger" type="button" @click="Searching()" >
@@ -62,7 +62,7 @@
      
       <div class="col-sm-3 col-lg-3 col-3 text-center p-0">
        <div class="title-page2 p-1">
-        <div style="letter-spacing: -1vmax">
+        <div style="letter-spacing: -1.2vmax">
         <span class="text-movie">
           M
         </span>
@@ -93,7 +93,7 @@
     
 <div class="row justify-content-center">
             <div class="col p-3">
-              <div class="copyright">
+              <div class="copyright fs-5">
                 @Copyright . 2021 by Zulkariski
               </div>
             </div>
