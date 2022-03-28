@@ -1,7 +1,13 @@
-# Vue.js
+# MAV - MovieVueApp!
+### REPO : https://github.com/zulkamaula/MAV---Movie-Vue-App
 
-This is the Template Repl for Vue.js.
+## The result app to show list of movies is already on site : https://mymav.netlify.app/
 
-Vue.js is a library for building user interfaces in JavaScript. This template uses Vite to serve your app.
-
-[Check out the official docs here](https://vuejs.org/).
+##### The technology i've used to built it :
+- HTML5, CSS3, JAVASCRIPT
+- NODE.JS
+- AXIOS
+- VUE.JS3 & VUEX.JS
+- BOOTSTRAP 5
+- SWEETALERT 2
+- FONTAWESOME 4.7.0
