@@ -43,7 +43,7 @@ h6:after {
     content:"";
     position: absolute;
     border-bottom: 1px solid grey; /* border-size & color are now controllable */
-    width: 50vmax;   
+    width: 35vmax;   
     height: 2vmax;
     display: inline;
     margin-left: 0.5vmax;
