@@ -111,8 +111,8 @@
     
 <div class="row justify-content-center">
             <div class="col p-3">
-              <div class="copyright fs-5">
-                @Copyright . 2021 by Zulkariski
+              <div class="copyright">
+                  @Copyright . 2022 by Zulkariski
               </div>
             </div>
           </div>
