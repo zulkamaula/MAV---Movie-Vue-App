@@ -20,10 +20,10 @@
           </span>
 
           <span class="row text-center" v-else>
-          <h8 class="text-dark fw-bold">
+          <h8 class="text-dark fw-bold col-12">
             Search result is here
           </h8>
-          <div class="scroll-horizontal rounded">
+          <div class="col-12 scroll-horizontal rounded">
             <div class="row itemscroll gap-2" v-for="lm in ListMovie" :key="lm.title">
               <div class="col-sm-10 col-lg-3">
                 <img :src="lm.Poster" class="mx-auto card-img-top">

@@ -1,12 +1,14 @@
 <template>
   <div>
-  <div class="row mt-3 mb-3 pt-2 body bg-light justify-content-center" style="height: 45vmax">
+  <div class="row mt-3 mb-3 body bg-light justify-content-center" style="height: 55vmax">
       <div class="col-11 align-self-center">
         <div class="row text-start">
-          <h6 class="text-dark fw-bold">
+          <h6 class="col text-dark fw-bold">
             Movie List
           </h6>
-          <div class="scroll-horizontal rounded">
+        </div>
+        <div class="row">
+          <div class="scroll-horizontal rounded col">
             <div class="row itemscroll gap-2" v-for="lm in ListMovie" :key="lm.title">
               <div class="col-sm-10 col-lg-3">
                 <img :src="lm.Poster" class="mx-auto card-img-top">
