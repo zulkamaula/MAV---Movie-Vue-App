@@ -1,34 +1,4 @@
-<template>
-  <div>
-  <div class="row mt-3 mb-3 body bg-light justify-content-center text-center" style="height: 55vmax">
-      <div class="col-11 align-self-center">
-        <div class="row text-start">
-          <h6 class="col text-dark fw-bold">
-            Movie List
-          </h6>
-        </div>
-        <div class="row">
-          <div class="scroll-horizontal rounded col">
-            <div class="row text-center justify-content-center itemscroll gap-2" v-for="lm in ListMovie" :key="lm.title">
-              <div class="col-sm-10 col-lg-3">
-                <img :src="lm.Poster" class="mx-auto card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">{{ lm.Title }}</h5>
-                <div class="d-grid">
-                  <button class="btn btn-sm btn-danger" type="button" @click="viewMovie(lm.imdbID)">View</button>
-              
-              </div>
-            </div>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-<script>
-  import axios from 'axios'
+import axios from 'axios'
   import env from '../env.js'
   import Swal from 'sweetalert2/dist/sweetalert2.js'
   import 'sweetalert2/src/sweetalert2.scss'
@@ -121,4 +91,3 @@
       }
     }
   }
-</script>

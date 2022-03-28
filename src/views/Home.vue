@@ -23,12 +23,30 @@
         <div class="col-lg-3 col-5 mb-5">
           
           <div class="card pt-2 pb-0">
-            
+            <h8 class="card-title">
+              TOP MOVIE!
+            </h8>
             <img :src="HeroMovie.Poster" class="mx-auto card-img-top">
             <div class="card-body">
               <h5 class="card-title">{{ HeroMovie.Title }}</h5>
               <p class="card-text">
-                {{ HeroMovie.Plot }}
+                <div class="row">
+                  <div class="col text-start">
+                    Released : {{ HeroMovie.Released }}
+                    <br />
+                    Rated : {{ HeroMovie.Rated }}
+                  </div>
+                  <div class="col text-end">
+                    <i class="fa fa-star text-warning"></i> {{ HeroMovie.imdbRating }} - IMDb Rating
+                  <br />  
+                     ({{ HeroMovie.imdbVotes }} Votes)
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    Genre : {{ HeroMovie.Genre }}
+                  </div>
+                </div>
               </p>
             </div>
           </div>
