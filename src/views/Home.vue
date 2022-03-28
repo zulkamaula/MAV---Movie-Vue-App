@@ -16,7 +16,6 @@
         </div>
         <span class="mav">
           MovieAppVue! 
-          {{ $store.state.count }}
         </span>
       </div>
         
@@ -132,15 +131,6 @@ export default {
     }; 
   },
   methods: {
-     testVUEX(){
-      this.$store.commit('increment');
-       if(this.ResultSearch === false){
-         this.ResultSearch = true
-         
-       } else {
-         this.ResultSearch = false
-       }
-     },
      Searching(){
        if(this.ResultSearch === false){
          this.ResultSearch = true
